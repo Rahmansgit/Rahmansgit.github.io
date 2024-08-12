@@ -1,0 +1,60 @@
+*{
+  padding: 20;
+  margin: 0;
+  }
+  
+  header{
+  height: 45px;
+  }
+  header nav ul{
+  display: flex;
+  margin-left: 80%;
+  }
+  
+  header nav ul li{
+  padding-left: 10%;
+  }
+  
+  section{
+  height: 100vh;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .Container{
+  margin-top: 5%
+  }
+  
+  .Container img{
+  height: 300px;
+  }
+  
+  .Container h2{
+  margin-top: 3%;
+  }
+  
+  footer {
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+  }
+
+  #intro {
+    background-image: url(pinkbg.jpg);
+    background-repeat: round;
+    }
+    #about{
+    background-color: rgb(206, 254, 123);
+    }
+    #contact{
+    background-color: blanchedalmond;
+    }
+    div{
+      background-color: rgb(225, 255, 117);
+      border: 10px solid rgb(0, 0, 0);
+      border-radius: 2%;
+      height: 50vh;
+      width: 50vh;
+      }
